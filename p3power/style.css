@@ -1,0 +1,335 @@
+/******************************************************************
+Theme Name: P3 Power 3 sites
+Description: Test Site for p3 power
+Author: Alex Sanabria
+Author URI:
+Version: 1.0
+Tags: flexible-width,widgets
+******************************************************************/
+
+body{
+ font-family: 'Space Grotesk', sans-serif;
+}
+.categories{
+    text-transform:uppercase;
+}
+.header-background{
+padding:50px 50px 100px 50px; 
+background-image:url(/wp-content/uploads/2020/11/Image-1.png);
+background-size:cover;
+background-position: center center;
+}
+.logo img{
+    width:100px; height:auto;
+}
+.hero-black{
+    background:#000;
+    padding:50px 12%;
+     font-family: 'Space Mono', monospace;
+}
+.arrows{
+    width:25px; height:auto;
+    position:relative;
+    top:5px;
+}
+.c-green{
+    color:#B8E826;
+}
+.hero-black h2{
+    color:#fff;
+    font-size:40px;
+    margin-bottom:25px;
+    margin-top:25px;
+}
+.hero-black p.font-small{
+    font-family: 'Space Grotesk', sans-serif;
+    color:#868686;
+    font-size:16px;
+}
+a.green-button{
+    display:inline-block;
+    padding:20px 50px;
+    text-align:center;
+    background:#A9EC00;
+      box-shadow: 10px 10px rgba(169,236,0,.4);
+      text-transform:uppercase;
+      margin-top:30px; 
+      color:#000 !important;
+}
+.down-arr{
+    color:#A9EC00;
+    font-size:60px;
+    margin:0 100px;
+    position: relative;
+    top: 25px;
+}
+.second-row{
+    margin:75px 0;
+    margin-bottom:0;
+}
+.second-row h1{
+    font-size:50px;
+    margin:20px 0;
+}
+.second-row p{
+color:#868e96;
+}
+.half-g{
+    width:100%;
+    height:auto;
+    margin-top:10px;
+    margin-bottom:50px;
+}
+hr{
+    background:#000;
+    border-color:#000;
+}
+.second-row h5{
+    font-size:25px;
+    margin-top:5px;
+}
+p.categories{
+    color:#ccc;
+    font-size:12px;
+    margin-bottom:10px;
+}
+p.p-exceprt{
+    color:#000;
+    font-size:16px;
+    line-height: 1.4;
+}
+.blog-post a{
+    display:inline-block;
+    color:#05C982;
+    font-size:16px;
+    font-family: 'Space Mono', monospace;
+}
+p.link{
+    margin-top:20px;
+}
+p.link i{
+  color:#05C982;
+    font-size:16px;
+    margin-left:5px;
+}
+.blog-post{
+    margin-top:10px;
+    margin-bottom:75px;
+    padding-right:20px;
+}
+
+.quote-box{
+    padding:60px 30px;;
+    background:#05C982;
+    color:#fff;
+      box-shadow: 20px 20px rgba(5,201,130,.4);
+    position:relative;
+    top:50px;
+}
+.fa-quote-left{
+    font-size:40px;
+    position:relative;
+    top:-20px;
+}
+p.quote-p{
+
+line-height:1.4;
+    font-size:18px;
+    margin-bottom:30px;
+}
+.author{
+color:#81e4ef;
+margin-bottom:10px;
+}
+.fourth-row{
+    background:#000;
+    padding-top:150px;
+    color:#fff;
+    padding-bottom:150px;
+}
+.balls{
+    width:auto;
+    height:50px;
+}
+.ttt{
+    margin-bottom:75px;
+}
+.fourth-row p{
+    line-height:1.4;
+}
+.green-subtitle{
+ display:inline-block;
+    color:#05C982;
+    font-size:16px;
+    font-family: 'Space Mono', monospace;
+}
+h4{
+    font-size:25px;
+    margin: 30px 0 40px 0;
+}
+.left-c p{
+    line-height:3;
+}
+.brands{
+    display:inline-block;
+    width:75%;
+    height:auto;
+    margin-top:40px;
+}
+.fifth-row{
+    padding-bottom:50px;
+}
+.fifth-row h5{
+    font-size:20px;
+}
+.border-p{
+    color:#000;
+    display:inline-block;
+    border-bottom:2px solid #000;
+    font-size:16px;
+}
+.green-p{
+    color:#05C982;
+    font-size:15px;
+    margin:20px 0;
+}
+.light-gray{
+    font-size:14px;
+    color:#ccc;
+    margin-top:20px;
+}
+.black-a{
+font-family: 'Space Mono', monospace;
+color:#000;
+font-size:20px;
+margin-top:10px;
+display:inline-block;
+font-weight:bold;
+}
+.slider{
+    margin:10px;
+    padding:20px;
+    background:#000;
+    color:#fff;
+    font-family: 'Space Mono', monospace;
+      box-shadow: 15px 15px rgba(5,201,130,1);
+}
+.slider h5{
+    margin-bottom:10px;
+}
+.slider p{
+    font-size:12px;
+    margin-bottom:15px;
+    line-height:1.4;
+}
+.slide{
+    display:none;
+}
+.slider-1{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    background:#ccc;
+    border-radius:100%;
+}
+.slider-1.active{
+background:#000;
+}
+.sixth-row{
+    color:#fff;
+    background:#000;
+    padding:50px 0;
+}
+.sixth-row h4{
+    color:#DA40FF;
+    font-size:14px;
+}
+.sixth-row h5{
+    color:#fff;
+    font-size:30px;
+    margin: 0 0 15px 0;
+}
+ul.gform_fields{
+    list-style:none !important;
+    
+}
+.gform_fields label{
+    display:none;
+}
+.gform_fields li{
+
+    margin: 15px 0;
+}
+
+.gform_fields li input, .gform_fields li textarea{
+    background:transparent;
+    padding:10px;
+    border: 1px solid #ccc;
+    width:400px;
+}
+.gform_fields li input:focus, .gform_fields li textarea:focus{
+color:#DA40FF;
+border-color:#DA40FF;
+background:rgba(218,64,255,.4);
+}
+
+input:focus::placeholder , textarea:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #DA40FF;
+  opacity: 1; /* Firefox */
+}
+.gform_button.button{
+    background:transparent;
+    text-transform:uppercase;
+    font-size:20px;
+     color: #DA40FF;
+    
+}
+.seventh-row{
+    padding:50px 0;
+    background:  #DA40FF;
+     color: #fff;
+}
+.seventh-row h5{
+    font-size:43px;
+}
+.seventh-row a.cta{
+    background:#fff;
+     color:  #DA40FF;
+     display:inline-block;
+     padding:20px 75px;
+      box-shadow: 10px 10px rgba(255,255,255,.4);
+      position:relative; 
+      top:20px;
+}
+
+.eight-row{
+    background:#000;
+    color:#fff;
+    padding-top:50px;
+    padding-bottom:10px;
+}
+.eight-row .green-c{
+color:#B8E826;
+}
+.copy{
+    font-size:12px;
+    color:#ccc;
+}
+.eight-row p{
+    font-size:13px;
+    line-height:1.4;
+}
+.eight-row a{
+    display:block;
+    margin:10px;
+}
+.eight-row ul{
+    list-style:none;
+    
+}
+.menu-title{
+    margin:5px 0 15px 0;
+}
+.eight-row ul li{
+    margin:15px 0px;
+}
