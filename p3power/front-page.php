@@ -271,12 +271,31 @@ foreach($post_categories as $c){
                 </div>
                 
                 <div class="text-center" style="margin-top:30px;">
-                    <span class="slider-1 active"></span>
-                    <span class="slider-1"></span>
+                    <span class="slider-1 active" id="slide1-button"></span>
+                    <span class="slider-1" id="slide2-button"></span>
                     
                 </div>
             </div>
         </div>
+        <script>
+        jQuery(function(){
+               jQuery('#slide1-button').on('click', function(){
+                    jQuery('.active').removeClass('active');
+                    jQuery(this).addClass('active');
+                    jQuery('.slide2').hide();
+                    jQuery('.slide1').show();
+                    
+                });
+                
+                jQuery('#slide2-button').on('click', function(){
+                    jQuery('.active').removeClass('active');
+                    jQuery(this).addClass('active');
+                    jQuery('.slide1').hide();
+                    jQuery('.slide2').show();
+                    
+                });
+        });
+        </script>
         </div>
 
             </div>
